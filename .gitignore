@@ -1,0 +1,32 @@
+# Python / packaging
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Local reports and runtime data
+reports/*
+!reports/.gitkeep
+.cache/
+logs/
+*.log
+
+# Test / tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

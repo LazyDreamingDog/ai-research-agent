@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-research-agent"
+version = "0.1.0"
+description = "A customizable Python agent for source-based research."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+ai-research-agent = "ai_research_agent.cli:main"
+
+[project.urls]
+Repository = "https://github.com/LazyDreamingDog/ai-research-agent"
+
+[tool.setuptools.packages.find]
+where = ["src"]
